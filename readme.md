@@ -2,6 +2,9 @@
 
 Bu proje, The Movie Database (TMDb) API'sini kullanarak kullanıcıların film detaylarını görmesine ve film kategorilerini keşfetmesine olanak sağlayan basit bir web uygulamasıdır. Kullanıcılar, kategorilere göre filmleri keşfedebilir, her filmin detaylarını görebilir ve favori listelerine ekleyebilir.
 
+## Ekran Kaydı
+https://github.com/user-attachments/assets/64620433-1e29-4f18-95e8-4fea56be9ba6
+
 ## Özellikler
 
 - **Kategoriler Menüsü**: Filmler, türlerine göre kategorilere ayrılmıştır. Kategoriler TMDb API'den dinamik olarak yüklenir.
@@ -32,13 +35,8 @@ Favori filmler tarayıcınızın `localStorage`'ında saklanır. Bir filmi favor
 - **TMDb API**: Film verilerini almak için.
 - **Bootstrap**: Responsive tasarım ve hazır UI bileşenleri için.
 
-## Kurulum
+## API Hakkında
 
 1. **TMDb API Anahtarını Alın**:
    Bu projeyi kullanabilmek için ücretsiz bir TMDb hesabı oluşturmalı ve bir API anahtarı edinmelisiniz. API anahtarınızı [TMDb API belgeleri](https://www.themoviedb.org/documentation/api) sayfasından alabilirsiniz.
 
-2. **API Anahtarını Değiştirin**:
-   `app.js` dosyasındaki `apiKey` değişkenine kendi TMDb API anahtarınızı ekleyin.
-   ```javascript
-   const apiKey = "YOUR_TMDB_API_KEY";
-   ```
